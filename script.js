@@ -29,3 +29,13 @@ function toggleOn() {
 };
 
 //Fonctionnalité 3
+
+var redbutton = document.getElementsByClassName('btn btn-sm btn-outline-secondary')[0];
+
+
+redbutton.addEventListener('click', putRedText);
+
+function putRedText() {
+    var cardChange = document.querySelector('p.card-text');
+    cardChange.style.color = 'red';
+}
