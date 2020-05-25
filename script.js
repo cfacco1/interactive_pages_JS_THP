@@ -17,3 +17,15 @@ function onFoorterClick() {
 }
 
 myFooter.addEventListener("click", onFoorterClick);
+
+// Fonctionnalité 2
+
+var menuHamb = document.querySelector('button');
+var navbarHeader = document.getElementById('navbarHeader');
+menuHamb.addEventListener("click", toggleOn); 
+
+function toggleOn() {
+    navbarHeader.classList.toggle("collapse");
+};
+
+//Fonctionnalité 3
